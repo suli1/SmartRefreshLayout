@@ -36,10 +36,10 @@ dependencies {
 }
 
 publish {
-    userOrg = 'scwang90'
-    groupId = 'com.scwang.smartrefresh'
+    userOrg = 'suli2016s'
+    groupId = 'com.suli.smartrefresh'
     artifactId = 'SmartRefreshLayout'
-    version = '1.0.4-7'
+    version = '1.1.0'
     description = 'An intelligent refresh layout'
-    website = "https://github.com/scwang90/${rootProject.name}"
+    website = "https://github.com/suli1/${rootProject.name}"
 }

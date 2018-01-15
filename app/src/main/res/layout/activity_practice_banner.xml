@@ -16,7 +16,8 @@
         app:srlAccentColor="@android:color/white"
         app:srlEnableHeaderTranslationContent="false"
         app:srlEnablePreviewInEditMode="false"
-        app:srlEnableNestedScrolling="true">
+        app:srlEnableNestedScrolling="true"
+        >
         <com.scwang.smartrefresh.header.MaterialHeader
             android:id="@+id/header"
             android:layout_width="match_parent"

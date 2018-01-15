@@ -1,0 +1,15 @@
+<resources>
+  <string name="pull_to_refresh">下拉可以刷新</string>
+  <string name="refreshing">正在刷新&#8230;</string>
+  <string name="loading">正在加載&#8230;</string>
+  <string name="let_go_to_refresh">釋放立即刷新</string>
+  <string name="refresh_complete">刷新完成</string>
+  <string name="refresh_failed">刷新失敗</string>
+  <string name="let_go_to_two_level">釋放進入二樓</string>
+  <string name="last_update_time">上次更新</string>
+  <string name="pull_to_load_more">上拉加載更多</string>
+  <string name="let_goto_loading">釋放立即加載</string>
+  <string name="loading_completed">加載完成</string>
+  <string name="loading_failed">加載失敗</string>
+  <string name="all_loaded">全部加載完成</string>
+</resources>

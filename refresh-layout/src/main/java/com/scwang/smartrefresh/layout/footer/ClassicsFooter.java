@@ -39,13 +39,13 @@ import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 @SuppressWarnings({"unused", "UnusedReturnValue"})
 public class ClassicsFooter extends RelativeLayout implements RefreshFooter {
 
-    public static String REFRESH_FOOTER_PULLUP = "上拉加载更多";
-    public static String REFRESH_FOOTER_RELEASE = "释放立即加载";
-    public static String REFRESH_FOOTER_LOADING = "正在加载...";
-    public static String REFRESH_FOOTER_REFRESHING = "正在刷新...";
-    public static String REFRESH_FOOTER_FINISH = "加载完成";
-    public static String REFRESH_FOOTER_FAILED = "加载失败";
-    public static String REFRESH_FOOTER_ALLLOADED = "全部加载完成";
+    //public static String REFRESH_FOOTER_PULLUP = "上拉加载更多";
+    //public static String REFRESH_FOOTER_RELEASE = "释放立即加载";
+    //public static String REFRESH_FOOTER_LOADING = "正在加载...";
+    //public static String REFRESH_FOOTER_REFRESHING = "正在刷新...";
+    //public static String REFRESH_FOOTER_FINISH = "加载完成";
+    //public static String REFRESH_FOOTER_FAILED = "加载失败";
+    //public static String REFRESH_FOOTER_ALLLOADED = "全部加载完成";
 
     protected TextView mTitleText;
     protected ImageView mArrowView;
@@ -82,7 +82,7 @@ public class ClassicsFooter extends RelativeLayout implements RefreshFooter {
         mTitleText = new TextView(context);
         mTitleText.setId(android.R.id.widget_frame);
         mTitleText.setTextColor(0xff666666);
-        mTitleText.setText(REFRESH_FOOTER_PULLUP);
+        mTitleText.setText(R.string.pull_to_load_more);
 
         LayoutParams lpBottomText = new LayoutParams(WRAP_CONTENT, WRAP_CONTENT);
         lpBottomText.addRule(CENTER_IN_PARENT);
@@ -240,9 +240,9 @@ public class ClassicsFooter extends RelativeLayout implements RefreshFooter {
             }
             mProgressView.setVisibility(GONE);
             if (success) {
-                mTitleText.setText(REFRESH_FOOTER_FINISH);
+                mTitleText.setText(R.string.loading_completed);
             } else {
-                mTitleText.setText(REFRESH_FOOTER_FAILED);
+                mTitleText.setText(R.string.loading_failed);
             }
             return mFinishDuration;
         }
@@ -276,10 +276,10 @@ public class ClassicsFooter extends RelativeLayout implements RefreshFooter {
         if (mLoadmoreFinished != finished) {
             mLoadmoreFinished = finished;
             if (finished) {
-                mTitleText.setText(REFRESH_FOOTER_ALLLOADED);
+                mTitleText.setText(R.string.all_loaded);
                 mArrowView.setVisibility(GONE);
             } else {
-                mTitleText.setText(REFRESH_FOOTER_PULLUP);
+                mTitleText.setText(R.string.pull_to_load_more);
                 mArrowView.setVisibility(VISIBLE);
             }
             if (mProgressDrawable != null) {
@@ -311,21 +311,21 @@ public class ClassicsFooter extends RelativeLayout implements RefreshFooter {
 //                    restoreRefreshLayoutBackground();
                     mArrowView.setVisibility(VISIBLE);
                 case PullToUpLoad:
-                    mTitleText.setText(REFRESH_FOOTER_PULLUP);
+                    mTitleText.setText(R.string.pull_to_load_more);
                     mArrowView.animate().rotation(180);
                     break;
                 case Loading:
                 case LoadReleased:
                     mArrowView.setVisibility(GONE);
-                    mTitleText.setText(REFRESH_FOOTER_LOADING);
+                    mTitleText.setText(R.string.loading);
                     break;
                 case ReleaseToLoad:
-                    mTitleText.setText(REFRESH_FOOTER_RELEASE);
+                    mTitleText.setText(R.string.let_goto_loading);
                     mArrowView.animate().rotation(0);
 //                    replaceRefreshLayoutBackground(refreshLayout);
                     break;
                 case Refreshing:
-                    mTitleText.setText(REFRESH_FOOTER_REFRESHING);
+                    mTitleText.setText(R.string.refreshing);
                     mProgressView.setVisibility(GONE);
                     mArrowView.setVisibility(GONE);
                     break;
