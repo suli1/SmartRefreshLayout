@@ -33,7 +33,7 @@ dependencies {
     })
     testCompile 'junit:junit:4.12'
     //noinspection GradleDependency
-    provided 'com.android.support:support-annotations:25.1.0'
+    provided 'com.android.support:support-annotations:25.3.1'
     //noinspection GradleDependency,GradleCompatible
     provided ('com.android.support:support-v4:22.1.0') {
         exclude group: 'com.android.support'
@@ -41,11 +41,20 @@ dependencies {
     provided project(':refresh-layout')
 }
 
+//publish {
+//    userOrg = 'scwang90'
+//    groupId = 'com.scwang.smartrefresh'
+//    artifactId = 'SmartRefreshHeader'
+//    version = '1.1.0-alpha-14'
+//    description = 'Some delicate headers of SmartRefreshLayout'
+//    website = "https://github.com/scwang90/${rootProject.name}"
+//}
+
 publish {
-    userOrg = 'scwang90'
-    groupId = 'com.scwang.smartrefresh'
-    artifactId = 'SmartRefreshHeader'
+    userOrg = 'suli2016s'
+    groupId = 'com.suli.smartrefresh'
+    artifactId = 'SmartRefreshLayout'
     version = '1.1.0-alpha-14'
-    description = 'Some delicate headers of SmartRefreshLayout'
-    website = "https://github.com/scwang90/${rootProject.name}"
+    description = 'An intelligent refresh layout'
+    website = "https://github.com/suli1/${rootProject.name}"
 }

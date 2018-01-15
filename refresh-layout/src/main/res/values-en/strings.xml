@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pull_to_refresh">Pull down to refresh</string>
+  <string name="refreshing">Refreshing&#8230;</string>
+  <string name="loading">Loading&#8230;</string>
+  <string name="let_go_to_refresh">Let go immediately refresh</string>
+  <string name="refresh_complete">Refresh completed</string>
+  <string name="refresh_failed">Refresh failed</string>
+  <string name="let_go_to_two_level">Let goto the second floor</string>
+  <string name="last_update_time">Last updated at</string>
+  <string name="pull_to_load_more">Load up more</string>
+  <string name="let_goto_loading">Let go immediately load</string>
+  <string name="loading_completed">Loading completed</string>
+  <string name="loading_failed">Loading failed</string>
+  <string name="all_loaded">All loaded</string>
+</resources>
