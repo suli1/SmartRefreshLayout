@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-//apply plugin: 'com.novoda.bintray-release'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
 
@@ -44,3 +44,12 @@ dependencies {
 //    description = 'Some delicate footers of SmartRefreshLayout'
 //    website = "https://github.com/scwang90/${rootProject.name}"
 //}
+
+publish {
+    userOrg = 'suli2016s'
+    groupId = 'com.suli.smartrefresh'
+    artifactId = 'SmartRefreshFooter'
+    version = '1.1.0-alpha-14'
+    description = 'An intelligent refresh layout'
+    website = "https://github.com/suli1/${rootProject.name}"
+}

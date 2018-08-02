@@ -1,0 +1,19 @@
+<resources>
+    <string name="srl_header_pulling">Zatvoriť na obnovenie</string>
+    <string name="srl_header_release">Uvoľniť na obnovenie</string>
+    <string name="srl_header_refreshing">Obnovenie &#8230;</string>
+    <string name="srl_header_loading">Načítava sa &#8230;</string>
+    <string name="srl_header_finish">Obnoviť úspešnosť</string>
+    <string name="srl_header_failed">Obnoviť zlyhalo </string>
+    <string name="srl_header_update">\'Posledná aktualizácia \' MM-dd HH:mm</string>
+    <string name="srl_header_secondary">Uvoľnenie do druhého poschodia</string>
+        
+    <string name="srl_footer_pulling">Pull Up Load viac</string>
+    <string name="srl_footer_release">Release To Load More</string>
+    <string name="srl_footer_loading">Načítava sa &#8230;</string>
+    <string name="srl_footer_refreshing">Obnovenie &#8230;</string>
+    <string name="srl_footer_finish">Načítať Úspech</string>
+    <string name="srl_footer_failed">Naloženie zlyhalo</string>
+    <string name="srl_footer_nothing">Žiadne ďalšie údaje</string>
+
+</resources>

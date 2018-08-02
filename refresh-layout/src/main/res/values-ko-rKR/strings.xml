@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="pull_to_refresh">아래로 당겨 새로 고침</string>
-  <string name="refreshing">상쾌&#8230;</string>
-  <string name="loading">로드 중&#8230;</string>
-  <string name="let_go_to_refresh">출시 즉시 새로 고침</string>
-  <string name="refresh_complete">새로 고침 완료 됨</string>
-  <string name="refresh_failed">새로 고침 실패</string>
-  <string name="let_go_to_two_level">2 층으로 풀어 라.</string>
-  <string name="last_update_time">마지막 업데이트</string>
-  <string name="pull_to_load_more">더 많이로드</string>
-  <string name="let_goto_loading">즉시 풀어 놓으십시오</string>
-  <string name="loading_completed">로드 완료 됨</string>
-  <string name="loading_failed">로드하지 못했습니다.</string>
-  <string name="all_loaded">모두로드 완료 됨</string>
+    <string name="srl_header_pulling">풀다운을 새로 고칠 수 있습니다.</string>
+    <string name="srl_header_refreshing">새로 고침 중 &#8230;</string>
+    <string name="srl_header_loading">로드 중 &#8230;</string>
+    <string name="srl_header_release">즉시 새로 고침을 해제하십시오.</string>
+    <string name="srl_header_finish">새로 고침 완료 </string>
+    <string name="srl_header_failed">새로 고침 실패 </string>
+    <string name="srl_header_update">마지막 업데이트 된 MM-dd HH:mm</string>
+    <string name="srl_header_secondary">2 층에 출시</string>
+
+    <string name="srl_footer_pulling">더 많은 내용을로드하려면 끌어 오기</string>
+    <string name="srl_footer_release">즉시로드 해제</string>
+    <string name="srl_footer_loading">로드 중 &#8230;</string>
+    <string name="srl_footer_refreshing">새로 고침 &#8230;</string>
+    <string name="srl_footer_finish">로드 완료</string>
+    <string name="srl_footer_failed">로드 실패</string>
+    <string name="srl_footer_nothing"> 더 이상 데이터가 없습니다.</string>
 </resources>

@@ -53,7 +53,7 @@ dependencies {
 publish {
     userOrg = 'suli2016s'
     groupId = 'com.suli.smartrefresh'
-    artifactId = 'SmartRefreshLayout'
+    artifactId = 'SmartRefreshHeader'
     version = '1.1.0-alpha-14'
     description = 'An intelligent refresh layout'
     website = "https://github.com/suli1/${rootProject.name}"
